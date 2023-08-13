@@ -1,4 +1,5 @@
 //import ProductCard from "@/components/ProductCard"
+import AddToCart from "@/components/AddToCart";
 import { Products } from "@/utils/mock"
 import { StaticImageData } from "next/image"
 import Image from "next/image";
@@ -25,6 +26,7 @@ export default function Page({ params }: { params: { id: string } }) {
               <p>Name {product.name}</p>
               <p>Price {product.price}</p>
               <p>Category {product.category}</p>
+              <AddToCart/>
             </div>
           </div>
  

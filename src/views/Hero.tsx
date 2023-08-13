@@ -22,6 +22,7 @@ function Hero() {
       {/* Right Div */}
       <div className='flex-1'>
         <Image src={heroImage} alt="hero image"/>
+        {/* <div className="w-10 h-10 text-center absolute right-1 top-0 rounded-full bg-red-200 text-white text-xs"></div> */}
       </div>
     </section>
   )
